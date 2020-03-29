@@ -1,0 +1,53 @@
+:host {
+  margin-top: 10px;
+}
+.point {
+  font-size: 5em;
+  margin-top: 8px;
+  margin-bottom: 0;
+  // display: block;
+  height: 50px;
+  text-align: center;
+}
+.article-points {
+  padding: 20px;
+  width: 80px;
+  height: 80px;
+  background-color: #cccccc;
+}
+.point-txt {
+  // display: block;
+  text-align: center;
+}
+.main-article {
+  margin: 10px;
+  display: flex;
+}
+
+.article-title{
+  display: block;
+  height: 70px;
+  h1 {
+    margin: 0;
+  }
+  p {
+    margin: 0;
+    color: #7e7e7e
+  }
+}
+.article-votes {
+  display: flex;
+  justify-content: right;
+  button {
+    // flex: 1;
+    color: #3170a5;
+    fa-icon {
+      padding-right: 10px;;
+    }
+  }
+}
+.article-body {
+  padding-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}

@@ -1,0 +1,14 @@
+#main-card {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+mat-divider {
+  position: relative;
+}

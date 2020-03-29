@@ -1,0 +1,16 @@
+<div class="main-article">
+  <div class="article-points">
+    <h1 class="point">{{article.votes}}</h1>
+    <div class="point-txt">POINTS</div>
+  </div>
+  <div class="article-body">
+    <div class="article-title">
+      <h1>{{article.title}}</h1>
+      <p>{{article.link}}</p>
+    </div>
+    <div class="article-votes">
+      <button mat-raised-button (click)="onUp()"><fa-icon [icon]='upArrowIcon'></fa-icon>UPVOTE</button>
+      <button mat-raised-button (click)="onDown()"><fa-icon [icon]='downArrowIcon'></fa-icon>DOWNVOTE</button>
+    </div>
+  </div>
+</div>
